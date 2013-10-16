@@ -58,8 +58,9 @@ Managing basic types:
 
 7- Conditions and loops: Write a program that could change the program flow by doing some comparison
 
+8- Using functions: Explain its importance and show how to encapsulate some functionality
 
-8- Defining classes: Classes allous to encapsule even more the pieces of our code.
+9- Defining classes: Classes allous to encapsule even more the pieces of our code.
 It is not just a matter encapsulating bunches of code as function does, it is more like
 a different paradigm. So, a class is a particular structure capable of having methods 
 (functions) and also attributs (variables).
