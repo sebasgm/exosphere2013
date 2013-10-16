@@ -27,6 +27,7 @@ when we said that python is as simple as possible, let's try by writing:
     # This is a nice feature of python. It allows us to treat strings as regular 
     #numbers, overloading the '+' operator's behavior
 
+Executing Python scripts:
 
 5- Now we can try writing the same "code" in a file, and executing it by just
 typing on a terminal:
@@ -46,21 +47,19 @@ typing on a terminal:
 
     python user_msg.py
 
+
+Managing basic types:
+
 6- Basic types: In python we have dynamic typing,which means that variables takes
     type of the value asigned.
 
     Some random asignations, just to test that fact.
 
 
-7- Conditions: Write a program that could change the program flow by doing some comparison
+7- Conditions and loops: Write a program that could change the program flow by doing some comparison
 
 
-
-.
-.
-.
-
-(N-4)- Defining classes: Classes allosus to encapsule even more the pieces of our code.
+8- Defining classes: Classes allous to encapsule even more the pieces of our code.
 It is not just a matter encapsulating bunches of code as function does, it is more like
 a different paradigm. So, a class is a particular structure capable of having methods 
 (functions) and also attributs (variables).
@@ -78,6 +77,6 @@ written.
 
 (N-1)- Plot graphics using matplotlib or a similar library
 
-N- Get the facebook counter of a given page
+N- Get the facebook counter of a given page (just to have "web" fun, hehe)
 
 

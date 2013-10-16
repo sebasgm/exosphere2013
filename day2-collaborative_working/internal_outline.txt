@@ -1,0 +1,33 @@
+Using gitand github:
+
+The first thing to do (after telling them about what a control version system is) 
+is to install git locally. Is it easy to do that in windows?
+
+The second thing to do, is to explain that exist a couple of nice and robust webtools
+for facilitating the collaborative uses of a control version system. Then we sohw them 
+github.
+
+They just need to know the basic commands
+
+git clone <url>
+git add
+git commit -m "Something done"
+git pull <remote> <branch>  (Maybe we can mention that there are not all control version system equals)
+git push <remote> <branch>
+git merge
+
+With just that commands we can ask them:
+
+1- Generate a new repo on github
+2- clone it to their local machines
+3- Add the project from the day before
+4- Commit and push to the remote
+5- Ask them to write same new web-based feature and push it too
+6- Ask them to clone someone else repo and integrate the new feature from the cloned repo to their self
+
+Maybe we can think a couple of fixed features, no 25 but 4 or 5, and distribute this no_uniques_features 
+between groups or students whose feature are not repeated
+
+
+
+
