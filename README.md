@@ -3,14 +3,23 @@ exosphere2013
 
 Links of interest. mostly Python references:
 
-http://www.python.org/doc/
+Documentation:
+	- http://www.python.org/doc/
 
-http://www.learnpython.org/
+Online interpreters:
+	- http://www.learnpython.org/
+	- http://www.pythonlearn.com/
+	- http://pythontutor.com # With a nice representation of interpreting process
 
-http://www.pythonlearn.com/
+Simple web API for Python:
+	- http://webpy.org/
+	
+HTML Doc:
+	- http://www.w3.org
+	- http://www.w3schools.com/html/html_intro.asp
 
-http://webpy.org/
-
+HTML Online intepreter:
+	- http://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro
 
 
 
