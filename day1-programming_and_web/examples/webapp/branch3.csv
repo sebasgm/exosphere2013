@@ -1,10 +1,7 @@
-TV;Suc 3;u$s153k;89
-tablet;Suc 3;u$s8.3k;70
-Cellphones;Suc 3;u$s11.9k;88
-Cameras;Suc 3;u$s2.1K;56
-Notebooks;Suc 3;u$s14.4k;31
-GPS;Suc 3;u$s4.7k;76
-Printers;Suc 3;u$s400;19
-game_console;Suc 3;u$s22.1k;43
-desktop;Suc 3;u$s10.4k;20
-e-readers;Suc 3;u$s2.9k;34
+LED-V;branch_3;153000;89
+Cameras;branch_3;2100;56
+Notebooks;branch_3;14400;31
+GPS;branch_3;4700;76
+Printers;branch_3;400;19
+Game console;branch_3;22100;43
+e-Readers;branch_3;2900;34

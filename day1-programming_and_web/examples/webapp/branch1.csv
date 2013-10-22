@@ -1,11 +1,8 @@
-TV;Suc 1;u$s124k;68
-tablet;Suc 1;u$s11k;190
-Cellphones;Suc 1;u$s63.7k;392
-Cameras;Suc 1;u$s3.2K;79
-Notebooks;Suc 1;u$s64.4k;112
-GPS;Suc 1;u$s2.9k;46
-Printers;Suc 1;u$s1.7k;58
-game_console;Suc 1;u$s16.2k;34
-desktop;Suc 1;u$s23.5k;47
-e-readers;Suc 1;u$s11.6k;138
-
+LED-TV;branch_1;124000;68
+Tablets;branch_1;11000;190
+Cameras;branch_1;3200;79
+GPS;branch_1;2900;46
+Printers;branch_1;1700;58
+Game console;branch_1;16200;34
+Desktops;branch_1;23500;47
+e-Readers;branch_1;11600;138
