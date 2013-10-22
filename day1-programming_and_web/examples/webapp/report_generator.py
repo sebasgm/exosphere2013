@@ -36,17 +36,30 @@ def generate_report(number_of_files):
     return products
 
 def convert_to_html(dictionary, indent=0):
-    p=[]
-    p.append('<ul>\n')
-    for k,v in dictionary.iteritems():
-        if isinstance(v, dict):
-            p.append('<li>'+ str(k) + ':')
-            p.append(convert_to_html(v))
-            p.append('</li>')
-        else:
-            p.append('<li>'+ str(k) + ':'+ str(v) + '</li>')
-            p.append('</ul>\n')
-    return '\n'.join(p)
+   p=[]
+   p.append('<ul>\n')
+   for k,v in dictionary.iteritems():
+       if isinstance(v, dict):
+           p.append('<li>'+ str(k) + ':')
+           p.append(convert_to_html(v))
+           p.append('</li>')
+       else:
+           p.append('<li>'+ str(k) + ':'+ str(v) + '</li>')
+   p.append('</ul>\n')
+   return '\n'.join(p)
+
+#def convert_to_html(dictionary, indent=0):
+#    p=[]
+#    p.append('<ul>\n')
+#    for k,v in dictionary.iteritems():
+#        if isinstance(v, dict):
+#            p.append('<li>'+ str(k) + ':')
+#            p.append(convert_to_html(v))
+#            p.append('</li>')
+#        else:
+#            p.append('<li>'+ str(k) + ':'+ str(v) + '</li>')
+#            p.append('</ul>\n')
+#    return '\n'.join(p)
 
 
 if __name__ == '__main__':

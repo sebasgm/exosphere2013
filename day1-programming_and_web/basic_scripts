@@ -20,7 +20,10 @@
     - Same steps than before
     - Execute:
     
-        python user_msg.py
+        python echo_msg.py
+
+
+msg = raw_input('Please choose an option:\n\t 1 for hello world\n\t 2 for hola mundo\n\t')
 
 
 3 - Interacting a litle bit with the program++:
