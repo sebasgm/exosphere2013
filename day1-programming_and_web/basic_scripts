@@ -1,0 +1,43 @@
+1- First python script:
+
+    - open a text file
+    - write "print 'hello world'"
+    - Save the file as hello_world.py
+    - Open a terminal and execute:
+    
+        python hello_world.py
+ 
+
+2 - Interacting a litle bit with the program:
+
+    - Create a new file called echo_msg.py
+    - Write the following code:
+    
+        print "Script number 2: Human Machine Interaction"
+        msg = raw_input('Please insert a msg to be printed')
+        print msg
+
+    - Same steps than before
+    - Execute:
+    
+        python user_msg.py
+
+
+3 - Interacting a litle bit with the program++:
+
+    - Create a new file called selected_msg.py
+    - Write the following code:
+    
+        print "Script number 3: Choosing a msg"
+        option = raw_input('Please choose an option:\n\t 1 for hello world\n\t 2 for hola mundo\n\t')
+        if option is '1':
+            print "hello world"
+        elif option is '2':
+            print "hola mundo"
+        else:
+            print "Invalid option. Please try again"
+
+    - Same steps than before
+    - Execute:
+    
+        python user_msg.py

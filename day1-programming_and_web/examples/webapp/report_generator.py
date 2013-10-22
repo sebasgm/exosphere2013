@@ -4,6 +4,7 @@ import argparse
 
 def generate_report(number_of_files):
 
+    products = {}
     report_dict = {}
 
     # For the existing number of files, load it in a global report
@@ -27,12 +28,11 @@ def generate_report(number_of_files):
                 # If the product doesn't exist, then we need to create it.
                 if row[0] not in products:
                     products[row[0]] = {'qty':qty,'revenue':revenue}
-                #    report_dict[row[0]] = products
                 # If the product actually exist, then we just need to add the new value
                 else:
                     products[row[0]]['qty'] = products[row[0]]['qty'] + qty
                     products[row[0]]['revenue'] = products[row[0]]['revenue'] + revenue
-            #report_dict[row[0]] = products
+
     return products
 
 def convert_to_html(dictionary, indent=0):
@@ -48,44 +48,17 @@ def convert_to_html(dictionary, indent=0):
             p.append('</ul>\n')
     return '\n'.join(p)
 
-#def convert_to_html2(dictionary, first_iteration = False):
-#    if first_iteration == True:
-#        p = []
-#        p.append('<html>\n')
-#        p.append('<body>\n')
-
-#        if isinstance(v, dict) and k == 'product':
-#            p.append('<ul>\n')
-#            p.append('<li>'+ str(k) + ':')
-#            p.append(convert_to_html(v))
-#            p.append('</li>')
-#        else:
-#            p.append('<li>'+ str(k) + ':'+ str(v) + '</li>')
-#            p.append('</ul>\n')
-
-
-#    p.append('</body>\n')
-#    p.append('</html>\n')
-
-    return '\n'.join(p)
 
 if __name__ == '__main__':
 
-    global branches_list
-    global branches_dict
-    global products
-
-    branches_list = []
-    branches_dict = {}
-    products = {}
-
     complete_report = {}
 
+    # This threa lines parse the commadn line arguments or sets a default value 3 branch if nothing is especified
     parser = argparse.ArgumentParser()
     parser.add_argument('num_of_branches', nargs='?', default='3')
     args = parser.parse_args()
 
-#    for branch in range(int(args.num_of_branches)):
+    # I should get the complet report. So I call the function, and its return a list of products
     complete_report = generate_report(args.num_of_branches)
     html_dict = convert_to_html(complete_report)
     f = open('index.html', 'w')

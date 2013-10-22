@@ -6,7 +6,6 @@ def generate_dict(value1, value2, value3, value4):
     return new_dict
 
 
-
 if __name__ == "__main__":
     new_dict = generate_dict(1, 2,3, 4)
     print new_dict
